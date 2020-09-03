@@ -1,0 +1,256 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 600px;
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    padding: 7px;   
+}
+
+.navbar {
+    padding: 0;
+    display:flex;
+}
+.header h1 {
+    font-size: 1.1875rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.insights-icon {
+    fill: var(--color-blue);
+    height: 1.5rem;
+}
+
+.insights {
+    padding: 5px;
+    cursor: pointer;
+}
+.insights:hover {
+    background: var(--color-hover);
+    border-radius: 50%;
+}
+
+.searchBar {
+    width: calc(100% - 600px);
+}
+
+.search {
+    width: 350px;
+    display:flex;
+    align-items: center;
+    background: rgb(37, 51, 65);
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+    padding: 7px;
+    margin-left: 30px;
+}
+
+.search input {
+    margin-left: 3px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.search input::placeholder {
+    font-size: 0.9375rem;
+    color: #9097a3;
+}
+.search-icon {
+    fill:rgb(136, 153, 166);
+    height:1rem;
+    padding: 0 10px;
+}
+
+.tweet-card {
+    display: flex;
+    padding: 10px 15px;
+    width :100%;
+    border-bottom: 1px solid #38444d;
+}
+
+.user-details {
+    padding-left: 10px;
+    color: #80919e;
+}
+
+.user-details .name {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color:white;
+}
+
+.user-details .separator {
+    position: relative;
+    bottom: 0.3rem;
+}
+.user-details .name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tweet-profile-pic img {
+    border-radius: 50%;
+}
+
+.tweet-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tweet-icon {
+    height: 1.2rem;
+    fill: #80919e;
+}
+
+.tweet-text  {
+    color: white;
+    padding-left: 10px;
+}
+
+.tweet-actions {
+    max-width: 425px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-option-icon {
+    fill: var(--color-tweet-dynamic);
+    height: 1.3rem;
+}
+
+.tweet-option {
+    padding: 5px;
+    cursor: pointer;
+}
+.tweet-option:hover {
+    --color-tweet-dynamic: var(--color-blue);
+    background: var(--color-hover);
+    border-radius: 50%;
+}
+
+.post-tweet {
+    display: flex;
+    border-bottom: 10px solid rgb(37, 51, 65);
+    padding: 10px 15px;
+}
+
+.post-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post-icons{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.post-input input {
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 10px;
+}
+
+.post-input input::placeholder {
+    font-size: 1.2rem;
+    color: #9097a3;
+}
+
+.post-button {
+    cursor: pointer;
+    background: var(--color-blue);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0px 5px;
+    height: 40px;
+    min-width: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.trends-card{
+    width: 350px;
+    background: var(--color-hover);
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.trends-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 5px;
+    border-bottom: 1px solid var(--color-border);
+}
+.trends-header h1 {
+    font-size: 1.1975rem;
+    color: white;
+    font-weight: 700;
+}
+
+.trend-item {
+    cursor: pointer;
+    padding:10px 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: rgb(136, 153, 166);
+    border-bottom: 1px solid var(--color-border);
+}
+.trend-item .title {
+    color: white;
+    font-weight: 700;
+    font-size: 0.9375rem;
+}
+.trend-item .trending {
+    font-size: 0.8rem;
+}
+.trend-item .tweets {
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+.trend-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trends-footer {
+    cursor: pointer;
+    padding: 15px 15px;
+    color: var(--color-blue);
+}
+
+

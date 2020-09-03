@@ -8,10 +8,14 @@
 :root {
     --color-btn-dynamic: white;
     --color-blue: rgba(29, 161, 242, 1);
+    --color-hover: rgba(29, 161, 242, 0.08);
+    --color-border: #38444d;
+    --color-tweet-dynamic: #80919e;
 }
 .mainContainer {
     background: #15212c;
     height: 100vh;
+    display: flex;
 }
 
 .sidebar {
@@ -22,4 +26,21 @@
 .main {
     width: 72%;
     height: 100%;
+}
+
+.mainContent {
+    width: 600px;
+    border-right: 1px solid #38444d;
+    
+}
+
+.tweet {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: calc(100% - 50.8px);
 }
