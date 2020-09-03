@@ -41,6 +41,7 @@
     transition-duration: 0.3s;
 
     margin-bottom: 8px;
+    
 }
 .sidebar-item:hover {
     background: rgba(29, 161, 242, 0.08);
