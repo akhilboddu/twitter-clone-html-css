@@ -72,6 +72,8 @@
     padding: 10px 15px;
     width :100%;
     border-bottom: 1px solid #38444d;
+    border-right: 1px solid #38444d;
+
 }
 
 .user-details {
