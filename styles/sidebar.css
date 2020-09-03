@@ -1,0 +1,127 @@
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 275px;
+    margin-left: auto;
+    padding: 15px;
+    height: 100%;
+}
+
+.sidebar-logo {
+    padding: 10px;
+    border-radius: 50%;
+}
+.sidebar-logo img {
+    height: 1.75rem;
+}
+.sidebar-logo:hover {
+    background: rgba(29, 161, 242, 0.08);
+    color: rgba(29, 161, 242, 1);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar-item {
+    display: flex;
+    color: white;
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+    padding: 10px;
+
+    transition-property: background;
+    transition-duration: 0.3s;
+
+    margin-bottom: 8px;
+}
+.sidebar-item:hover {
+    background: rgba(29, 161, 242, 0.08);
+    --color-btn-dynamic: var(--color-blue);
+    color: var(--color-btn-dynamic);
+    cursor: pointer;
+}
+
+.sidebar-icon {
+    height: 1.75rem;
+    fill: var(--color-btn-dynamic);
+}
+.sidebar-title {
+    font-size: 1.1875rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.sidebar-button {
+    background: var(--color-blue);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    height: 49px;
+    min-width: 79px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+.sidebar-button:hover {
+    cursor: pointer;
+    background: rgba(26,145,218,1);
+}
+
+.sidebar-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom-left-radius: 99999px;
+    border-top-left-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+    border-top-right-radius: 99999px;
+}
+.sidebar-user:hover {
+    background: rgba(29, 161, 242, 0.08);
+    color: var(--color-blue);
+    cursor: pointer;
+}
+.sidebar-user-details {
+    display: flex;
+}
+.sidebar-user-details img {
+    border-radius: 50%;
+}
+.sidebar-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.sidebar-dropdown {
+    height: 0.8rem;
+}
+.sidebar-name .name {
+    color: white;
+    font-weight: 700;
+    font-size: 0.9375rem;
+}
+.sidebar-name .userid {
+    color: rgb(136, 153, 166);
+    font-size: 0.9375rem;
+}
+
+
+

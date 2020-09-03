@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:root {
+    --color-btn-dynamic: white;
+    --color-blue: rgba(29, 161, 242, 1);
+}
+.mainContainer {
+    background: #15212c;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 28%;
+    height: 100%;
+    border-right: 1px solid #38444d;
+}
+.main {
+    width: 72%;
+    height: 100%;
+}
